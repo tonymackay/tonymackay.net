@@ -8,9 +8,9 @@
     <link href="tachyons.min.css" rel="stylesheet">
 </head>
 
-<body class="avenir bt bb bw2 b--dark-blue">
+<body class="avenir bt bb bw2 b--blue">
 
-    <div class="bb b--black-10">
+    <div>
         <div class="mw7 pv4 ph3 pv5-ns center black-80">
             <h1 class="f3 f2-ns fw6 lh-title measure mb2 ttu">Tony Mackay.</h1>
             <p class="f5 f4-ns fw5 pt3 lh-copy measure mt0">
@@ -42,7 +42,7 @@
         </div>
     </div>
     
-    <div class="bb b--black-10 bg-lightest-blue navy">
+    <div class="bt b--black-10 bg-lightest-blue navy">
         <div class="mw7 pv4 ph3 center">
             <h2 class="f4 f3-ns fw6 lh-title measure mb2 ttu black">Writing</h2>
             <p class="f5 f4-ns fw5 pt3 lh-copy measure mt0">
@@ -56,21 +56,21 @@
         </div>
     </div>
 
-    <div class="bb b--black-10 bg-near-black silver">
+    <div class="bt b--black-10 bg-near-black silver">
         <div class="mw7 pv4 ph3 center">
             <h2 class="f4 f3-ns fw6 lh-title measure mb2 ttu moon-gray">Reading</h2>
             <p class="f5 f4-ns fw5 pt3 lh-copy measure mt0">
                 I like reading books on software development, sysadmin and self-improvement. 
             </p>
-            <p class="measure">Disclosure: as an Amazon associate I might earn money if you purchase a book using the links below.</p>
-            <p class="f5 f4-ns fw5 lh-copy measure">I'm currently reading:</p>
+            <p class="f6 f5-ns lh-copy measure">Disclosure: as an Amazon associate I might earn money if you purchase a book using the links below.</p>
+            <p class="f5 f4-ns fw5 lh-copy measure">Book I'm currently reading:</p>
             <ul class="pl4">
                 <li class="pv2">
                     <a class="fw6 link dim blue" 
                     href="https://amzn.to/2JJRjdZ"
                     data-geolinks='{ "GB": "https://amzn.to/3mSZcwj"}' 
                     rel="noopener noreferrer nofollow">Microservices Patterns</a> 
-                    <span class="db pv1 fw5">By Chris Richardson</span></a>
+                    <span class="db pv1 fw5">By Chris Richardson</span>
                 </li>
             </ul>
             <p class="f5 f4-ns fw5 pt3 lh-copy measure mt0">Books I've read:</p>
@@ -80,43 +80,69 @@
                     href="https://amzn.to/36UaavY" 
                     data-geolinks='{ "GB": "https://amzn.to/3lQx8IA"}' 
                     rel="noopener noreferrer nofollow">The Go Programming Language</a> 
-                    <span class="db pv1 fw5">By Alan Donovan & Brian Kernighan</span></a>
+                    <span class="db pv1 fw5">By Alan Donovan & Brian Kernighan</span>
                 </li>
                 <li class="pv2">
                     <a class="fw6 link dim blue" 
                     href="https://amzn.to/3glAAcY"
                     data-geolinks='{ "GB": "https://amzn.to/3gnXlNt"}' 
                     rel="noopener noreferrer nofollow">C# in Depth</a> 
-                    <span class="db pv1 fw5">By Jon Skeet</span></a>
+                    <span class="db pv1 fw5">By Jon Skeet</span>
                 </li>
                 <li class="pv2">
                     <a class="fw6 link dim blue" 
                     href="https://amzn.to/37HpISX" 
                     data-geolinks='{ "GB": "https://amzn.to/3lZh6fC"}' 
                     rel="noopener noreferrer nofollow">Linux Bible</a> 
-                    <span class="db pv1 fw5">By Christopher Negus</span></a>
+                    <span class="db pv1 fw5">By Christopher Negus</span>
+                </li>
+                <li class="pv2">
+                    <a class="fw6 link dim blue" 
+                    href="https://amzn.to/3gjL4ts" 
+                    data-geolinks='{ "GB": "https://amzn.to/36SxOsI"}' 
+                    rel="noopener noreferrer nofollow">The Obstacle is the Way</a> 
+                    <span class="db pv1 fw5">By Ryan Holiday</span>
+                </li>
+                <li class="pv2">
+                    <a class="fw6 link dim blue" 
+                    href="https://amzn.to/2LfTN4q" 
+                    data-geolinks='{ "GB": "https://amzn.to/37JEfNH"}' 
+                    rel="noopener noreferrer nofollow">The Richest Man In Babylon</a> 
+                    <span class="db pv1 fw5">By George S Clason</span>
+                </li>
+                <li class="pv2">
+                    <a class="fw6 link dim blue" 
+                    href="https://amzn.to/37HTlUb" 
+                    data-geolinks='{ "GB": "https://amzn.to/33TjdLv"}' 
+                    rel="noopener noreferrer nofollow">The Slight Edge</a> 
+                    <span class="db pv1 fw5">By Jeff Olson</span>
+                </li>
+                <li class="pv2">
+                    <a class="fw6 link dim blue" 
+                    href="https://amzn.to/39PISsd" 
+                    data-geolinks='{ "GB": "https://amzn.to/2Imxd90"}' 
+                    rel="noopener noreferrer nofollow">The Little Book of Common Sense Investing</a> 
+                    <span class="db pv1 fw5">By John C. Bogle</span>
                 </li>
             </ul>
         </div>
     </div>
     <script>
-        function geolink(country) {
-            var links = document.getElementsByTagName('a');
-            for (var i = 0; i < links.length; i++) {
-              var j = links[i].dataset['geolinks'];
-              if (j) {
-                  var geolinks = JSON.parse(j);
-                  newURL = geolinks[country];
-                  if (newURL) {
-                    console.log('replaced: ' + links[i].href + ' with: ' + newURL);
-                    links[i].href = newURL;
-                  }
+      function geolink(country) {
+        var links = document.getElementsByTagName('a');
+          for (var i = 0; i < links.length; i++) {
+            var j = links[i].dataset['geolinks'];
+            if (j) {
+              var geolinks = JSON.parse(j);
+              newURL = geolinks[country];
+              if (newURL) {
+                console.log('replaced: ' + links[i].href + ' with: ' + newURL);
+                links[i].href = newURL;
               }
-            }
+          }
         }
-        fetch('https://graspingtech.com/api/country.json')
-        .then(response => response.json())
-        .then(data => geolink(data.country));
+      }
+      fetch('https://graspingtech.com/api/country.json').then(response => response.json()).then(data => geolink(data.country));
     </script>
 </body>
 </html>

@@ -1,4 +1,5 @@
-[{
+[
+{
     "name": "Linux Bible",
     "author": "Christopher Negus",
     "urls": {
@@ -28,6 +29,38 @@
     "urls": {
         "US": "https://amzn.to/2JJRjdZ",
         "GB": "https://amzn.to/3mSZcwj"
+    }
+},
+{
+    "name": "The Obstacle is the Way",
+    "author": "Ryan Holiday",
+    "urls": {
+        "US": "https://amzn.to/3gjL4ts",
+        "GB": "https://amzn.to/36SxOsI"
+    }
+},
+{
+    "name": "The Richest Man In Babylon",
+    "author": "George S Clason",
+    "urls": {
+        "US": "https://amzn.to/2LfTN4q",
+        "GB": "https://amzn.to/37JEfNH"
+    }
+},
+{
+    "name": "The Slight Edge",
+    "author": "Jeff Olson",
+    "urls": {
+        "US": "https://amzn.to/37HTlUb",
+        "GB": "https://amzn.to/33TjdLv"
+    }
+},
+{
+    "name": "The Little Book of Common Sense Investing",
+    "author": "John C. Bogle",
+    "urls": {
+        "US": "https://amzn.to/39PISsd",
+        "GB": "https://amzn.to/2Imxd90"
     }
 }
 ]
