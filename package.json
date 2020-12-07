@@ -1,0 +1,22 @@
+{
+  "name": "tonymackay.net",
+  "version": "1.0.0",
+  "description": "This is the source content and build scripts for my site tonymackay.net.",
+  "main": "index.js",
+  "scripts": {
+    "dev": "browser-sync start --server '.' --files '.'"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tonymackay/tonymackay.net.git"
+  },
+  "author": "Tony Mackay",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tonymackay/tonymackay.net/issues"
+  },
+  "homepage": "https://github.com/tonymackay/tonymackay.net#readme",
+  "devDependencies": {
+    "browser-sync": "^2.26.13"
+  }
+}

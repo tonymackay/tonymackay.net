@@ -1,0 +1,33 @@
+[{
+    "name": "Linux Bible",
+    "author": "Christopher Negus",
+    "urls": {
+        "US": "https://amzn.to/37HpISX",
+        "GB": "https://amzn.to/3lZh6fC"
+    }
+},
+{
+    "name": "C# in Depth",
+    "author": "Jon Skeet",
+    "urls": {
+        "US": "https://amzn.to/3glAAcY",
+        "GB": "https://amzn.to/3gnXlNt"
+    }
+},
+{
+    "name": "The Go Programming Language",
+    "author": "Alan Donovan & Brian Kernighan",
+    "urls": {
+        "US": "https://amzn.to/36UaavY",
+        "GB": "https://amzn.to/3lQx8IA"
+    }
+},
+{
+    "name": "Microservices Patterns",
+    "author": "Chris Richardson",
+    "urls": {
+        "US": "https://amzn.to/2JJRjdZ",
+        "GB": "https://amzn.to/3mSZcwj"
+    }
+}
+]
