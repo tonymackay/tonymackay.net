@@ -62,5 +62,21 @@
         "US": "https://amzn.to/39PISsd",
         "GB": "https://amzn.to/2Imxd90"
     }
+},
+{
+    "name": "Outliers: The Story of Success",
+    "author": "Malcolm Gladwell",
+    "urls": {
+        "US": "https://amzn.to/35fETlL",
+        "GB": "https://amzn.to/3hNmi5F"
+    }
+},
+{
+    "name": "Smarter Investing: Simpler Decisions for Better Results",
+    "author": "Tim Hale",
+    "urls": {
+        "US": "https://amzn.to/38gVSpA",
+        "GB": "https://amzn.to/3njIGEI"
+    }
 }
 ]
