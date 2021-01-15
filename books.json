@@ -86,5 +86,14 @@
         "US": "https://amzn.to/3hYoV4u",
         "GB": "https://amzn.to/2XE8HVb"
     }
+},
+{
+    "name": "Kubernetes in Action",
+    "author": "Marko Lukša",
+    "urls": {
+        "US": "https://amzn.to/3swC1L8",
+        "GB": "https://amzn.to/3nMZd4t"
+    }
 }
 ]
+
