@@ -94,6 +94,24 @@
         "US": "https://amzn.to/3swC1L8",
         "GB": "https://amzn.to/3nMZd4t"
     }
+},
+{
+    "name": "Ansible for DevOps",
+    "author": "Jeff Geerling",
+    "urls": {
+        "US": "https://amzn.to/3ihEWCS",
+        "GB": "https://amzn.to/3nJzEkM"
+    }
+},
+{
+    "name": "How Linux Works",
+    "author": "Brian Ward",
+    "urls": {
+        "US": "https://amzn.to/39Cp61F",
+        "GB": "https://amzn.to/2XP79HC"
+    }
 }
 ]
+
+
 
