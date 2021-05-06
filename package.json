@@ -17,6 +17,6 @@
   },
   "homepage": "https://github.com/tonymackay/tonymackay.net#readme",
   "devDependencies": {
-    "browser-sync": "^2.26.13"
+    "browser-sync": "^2.26.14"
   }
 }
